@@ -27,20 +27,32 @@ public class ViajeFamiliar extends Viaje {
         familia = vfamilia;
     }
     //Constructor getters and setters
-
+    /**
+     * Implementacion de la descripcion para el viaje familiar
+     */
     @Override
     public String descripcion() {
         return "Viaje para disfrutar con toda tu familia";
     }
-
+    
+    /**
+     * Implementacion para cualquier Metodo heredado de la clase viaje
+     */
     @Override
     public String cualquierMetodo2() {
         return "Método implementado en la clase hija viaje familiar";
     }
-
+     /**
+     * Asigna el valor de la familia dentro del parametro familia
+     */
     void setFamilia(int vfamilia) {
         familia = vfamilia;
     }
+    
+     /**
+     * Retorna el tamaño de la familia
+     *@return devuelve el valor de la cantidad de miembros de la familia
+     */
 
     int getFamilia() {
         return familia;

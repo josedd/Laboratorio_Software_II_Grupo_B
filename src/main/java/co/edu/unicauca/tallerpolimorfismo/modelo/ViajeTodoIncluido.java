@@ -21,6 +21,9 @@ public class ViajeTodoIncluido extends Viaje {
         fechaSalida=vfechaini;
         fechaLlegada=vfechafin;}
  // Constructores
+ /**
+  * Implementacion de la descripcion para el viaje todo incluido
+  */  
  @Override
  public String descripcion() {
  return "Disfruta tu viaje todo incluido";

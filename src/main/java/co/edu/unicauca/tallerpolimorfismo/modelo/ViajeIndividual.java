@@ -24,6 +24,7 @@ public class ViajeIndividual extends Viaje {
     
     /**
      * Implementacion de la descripcion para el viaje individual
+     * @return Mensaje de descripcion
      */ 
 
     @Override

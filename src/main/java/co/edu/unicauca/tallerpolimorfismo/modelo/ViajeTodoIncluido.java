@@ -23,7 +23,7 @@ public class ViajeTodoIncluido extends Viaje {
  // Constructores
  /**
   * Implementacion de la descripcion para el viaje todo incluido
-    @return Mensaje de descripcion
+  * @return Mensaje de descripcion
   */  
  @Override
  public String descripcion() {

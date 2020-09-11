@@ -37,7 +37,7 @@ public abstract class Viaje {
     
     /**
      * Espacio para la implementacion de cualquier Metodo  2 que se requiera para el viaje
-      * @return Valor de cualquier metodo 2
+     * @return Valor de cualquier metodo 2
      */
     public String cualquierMetodo2() {
         return "Cualquier método2 implementado en la clase base";

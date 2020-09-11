@@ -27,16 +27,24 @@ public class ViajeIncentivo extends Viaje {
         empresa = vempresa;
     }
     //Constructor, getters and setters
-
+    /**
+     * Implementacion de la descripcion para el viaje patrocinado por una empresa
+     */
     @Override
     public String descripcion() {
         return "Viaje incentivo que te envia la empresa " + empresa;
     }
-
+     /**
+     * Implementacion para cualquier Metodo heredado de la clase viaje
+     */
     @Override
     public String cualquierMetodo2() {
         return "Método implementado en la clase hija viaje de incentivo";
     }
+     /**
+     * Retorna el nombre de la empresa
+     *@return devuelve el nombre de la empresa que patrocina el viaje al empleado
+     */
 
     String getEmpresa() {
         return empresa; //To change body of generated methods, choose Tools | Templates.

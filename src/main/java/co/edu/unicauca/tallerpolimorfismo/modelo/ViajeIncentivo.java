@@ -29,6 +29,7 @@ public class ViajeIncentivo extends Viaje {
     //Constructor, getters and setters
     /**
      * Implementacion de la descripcion para el viaje patrocinado por una empresa
+     * @return Mensaje de descripcion
      */
     @Override
     public String descripcion() {
@@ -36,6 +37,7 @@ public class ViajeIncentivo extends Viaje {
     }
      /**
      * Implementacion para cualquier Metodo heredado de la clase viaje
+     * @return Valor del metodo heredado
      */
     @Override
     public String cualquierMetodo2() {

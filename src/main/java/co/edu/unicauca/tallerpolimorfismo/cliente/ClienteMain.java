@@ -4,6 +4,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+ /*
+  * Declaracion de paquetes que se van a usar en el progrma principal
+  */
 package co.edu.unicauca.tallerpolimorfismo.cliente;
 
 import co.edu.unicauca.tallerpolimorfismo.modelo.Viaje;
@@ -58,7 +62,7 @@ public class ClienteMain {
     }
 
     /**
-     * Recorre e imprime datos del arreglo polimofico
+     * Recorre e imprime datos del arreglo polimorfico
      */
     public static void mostrarViajes() {
         // En este caso vemos que todos los viajes ejecutan el metodo

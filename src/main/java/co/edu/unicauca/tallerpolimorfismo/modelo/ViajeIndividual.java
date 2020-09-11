@@ -21,6 +21,10 @@ public class ViajeIndividual extends Viaje {
         fechaLlegada = vfechafin;
     }
     // Constructor
+    
+    /**
+     * Implementacion de la descripcion para el viaje individual
+     */ 
 
     @Override
     public String descripcion() {

@@ -21,13 +21,15 @@ public abstract class Viaje {
     protected Date fechaLlegada;
     // Constructores, getters y setters
 
-     /**
+    /**
      * Abstraccion que sera implementada luego por las clases hijas para describir el tipo de viaje
+     * @return Mensaje de descripcion
      */
     public abstract String descripcion();
     
-     /**
+    /**
      * Espacio para la implementacion de cualquier Metodo que se requiera para el viaje
+     * @return Valor de cualquier metodo
      */
     public String cualquierMetodo() {
         return "Cualquier método implementado en la clase base";
@@ -35,6 +37,7 @@ public abstract class Viaje {
     
     /**
      * Espacio para la implementacion de cualquier Metodo  2 que se requiera para el viaje
+      * @return Valor de cualquier metodo 2
      */
     public String cualquierMetodo2() {
         return "Cualquier método2 implementado en la clase base";
